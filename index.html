@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icone da pagina -->
+    <link rel="icon" href="images/popcorn.ico">
+    <title>Popcorn</title>
+
+    <!-- Bootstrap inicio-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap fim -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <!-- nav superior inicio -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <img class="navbar-brand logo" src="images/popcorn.png" alt="logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav_header" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link nav_top" aria-current="page" href="#lancamentos">Lançamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav_top" href="#destaques">Em destaque</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav_top" href="#avaliacoes">Avaliações</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav_top" href="#entrevistas">Entrevistas & Making Of</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav_top" href="#novidades">Novidades</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="input_header" type="search" placeholder="Pesquisar filme" aria-label="Search">
+                            <button class="btn_header" type="submit">Pesquisar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- nav superior fim -->
+        </header>
+
+        <!-- Lançamentos -->
+        <div id="lancamentos" class="carousel slide lancamentos" data-bs-ride="carousel">
+            <h1 class="titulo_branco">Lançamentos</h1>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#lancamentos" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#lancamentos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#lancamentos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <!-- Filme 1 -->
+                <div class="carousel-item active">
+
+                    <div class="filmes">
+                        <div class="row" style="margin-bottom: 35px;">
+                            <div class="col-xs-12 col-md-12 col-lg-6" style="min-height: 294px;">
+                                <iframe width="100%" height="330" src="https://www.youtube.com/embed/r5D_XnTzOoQ"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen class="video"></iframe>
+                            </div>
+                            <div class="col-xs-12 col-md-12 col-lg-6">
+                                <p class="sinopse">
+                                    Baseado no personagem de mesmo nome da Marvel Comics, Michael Morbius (Jared Letto)
+                                    sempre sofreu com uma condição rara em seu sangue que o faz andar de bengala e desde
+                                    criança ser excluído por outros, mas sua vida solitária foi preenchida por livros.
+                                    Após
+                                    se formar na faculdade, Doutor Morbius é renomado na área de biomedicina e tenta
+                                    achar
+                                    uma cura para sua rara condição, afim de não apenas se ajudar, mas ajudar outras
+                                    pessoas
+                                    que também sofrem como ele. Experimentando com o DNA de morcegos, Morbius espera
+                                    achar a
+                                    cura e se usa como teste para o soro. Usando o DNA que isolou e uma mistura de
+                                    eletrochoque, a cura foi um sucesso temporário, mas os efeitos colaterais acabaram
+                                    transformando-o em um pseudo-vampiro e que agora precisa sobreviver como um. Apesar
+                                    de
+                                    ganhar capacidades iguais a de um morcego, Morbius precisa de sangue humano para
+                                    sobreviver, os efeitos colaterais também o fez mudar fisicamente, ganhando presas e
+                                    uma
+                                    pele pálida. Além disso, a cada pessoa que ele morde, ela também vira um ser igual a
+                                    ele.
+
+                                </p>
+                                <div class="row ">
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                        <p class="sobre">Diretor: Daniel Espinosa</p>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                        <p class="sobre">Roteiro: Burk Sharpless, Roy Thomas</p>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                        <p class="sobre">Elenco: Jared Leto, Matt Smith (XI), Adria Arjona</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <p class="sobre">Estreia: 31 de março de 2022</p>
+                                </div>
+
+                                <div class="col-12">
+                                    <p class="sobre nota1">Avaliação:</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Filme 2 -->
+                <div class="carousel-item">
+
+                    <div class="filmes">
+                        <div class="row" style="margin-bottom: 35px;">
+                            <div class="col-xs-12 col-md-12 col-lg-6" style="min-height: 294px;">
+                                <iframe width="100%" height="330" src="https://www.youtube.com/embed/A2SjVRziC7M"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen class="video"></iframe>
+                            </div>
+                            <div class="col-xs-12 col-md-12 col-lg-6">
+                                <p class="sinopse">
+                                    Sonic 2 - O Filme é uma sequência dos acontecimentos do primeiro live-action de
+                                    Sonic -
+                                    O Filme, baseado no videogame de sucesso. Após conseguir se estabelecer em Green
+                                    Hills,
+                                    Sonic está pronto para mais liberdade e quer provar que tem o necessário para ser um
+                                    herói de verdade. Seu teste virá quando Tom e Maddie concordam em deixá-lo em casa
+                                    enquanto saem de férias para ir ao casamento da irmã de Rachel, no Havaí. Mas para a
+                                    infelicidade do ouriço, a data acaba coincidindo com o retorno do Dr. Robotnik,
+                                    dessa
+                                    vez com um novo parceiro, Knuckles, depois que o doutor do mal vai embora para o
+                                    planeta
+                                    cogumelo. O terrível Robotnik está à procura de uma esmeralda com o poder de
+                                    destruir
+                                    civilizações. Sonic se une a um novo companheiro, Tails, e juntos eles embarcam em
+                                    uma
+                                    jornada para encontrar a esmeralda antes que ela caia nas mãos erradas.
+                                </p>
+                                <div class="row ">
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                        <p class="sobre">Diretor: Jeff Fowler</p>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                        <p class="sobre">Roteiro: Patrick Casey, Patrick Casey</p>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                        <p class="sobre">Elenco: Ben Schwartz, Idris Elba, Colleen O'Shaughnessey</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <p class="sobre">Estreia: 7 de abril de 2022</p>
+                                </div>
+
+                                <div class="col-12">
+                                    <p class="sobre nota2">Avaliação:</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Filme 3 -->
+                <div class="carousel-item">
+
+                    <div class="filmes">
+                        <div class="row" style="margin-bottom: 35px;">
+                            <div class="col-xs-12 col-md-12 col-lg-6" style="min-height: 294px;">
+                                <iframe width="100%" height="330" src="https://www.youtube.com/embed/LcCrLZceCmg"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen class="video"></iframe>
+                            </div>
+                            <div class="col-xs-12 col-md-12 col-lg-6">
+                                <p class="sinopse">
+                                    Animais Fantásticos: Os Segredos de Dumbledore é a sequência das aventuras de Newt
+                                    Scamander (Eddie Redmayne), um magizoologista que carrega em sua maleta uma coleção
+                                    de
+                                    fantásticos animais do mundo da magia descoberta em suas viagens. Dessa vez, ele é
+                                    convocado por Albus Dumbledore (Jude Law) na luta contra o vilão Grindelwald (Mads
+                                    Mikkelsen). A trama mostra por que o célebre bruxo de Hogwarts, que sabe da busca
+                                    por
+                                    controle de Grindelwald e é incapaz de detê-lo sozinho, confia no magizoologista
+                                    para
+                                    liderar uma equipe de bruxos, bruxas e um bravo padeiro trouxa em uma missão
+                                    perigosa.
+                                    Ao longo do enredo, eles encontrarão velhos e novos animais fantásticos, além de
+                                    enfrentar a crescente legião de seguidores do vilão. Mas o que o grupo de Scamander
+                                    não
+                                    sabe é que Grindelwald colocará o Mundo Mágico em uma luta contra o mundo dos
+                                    trouxas.
+                                    Enquanto o universo da magia fica mais dividido, Dumbledore deve decidir por quanto
+                                    tempo ele ficará à margem da guerra que se aproxima.
+                                </p>
+                                <div class="row ">
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                        <p class="sobre">Diretor: David Yates</p>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                        <p class="sobre">Roteiro: J.K. Rowling</p>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                        <p class="sobre">
+                                            Elenco: Eddie Redmayne, Jude Law, Mads Mikkelsen
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <p class="sobre">Estreia: 14 de abril de 2022 </p>
+                                </div>
+
+                                <div class="col-12">
+                                    <p class="sobre nota3">Avaliação:</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Em destaque -->
+        <div id="destaques">
+            <h1 class="titulo_vermelho">Em destaque</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                    </div>
+                    <div class="col-6">
+                        <div class="dropdown" style="text-align: right;">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categoria: TODOS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#destaques">Comédia</a></li>
+                                <li><a class="dropdown-item" href="#destaques">Aventura</a></li>
+                                <li><a class="dropdown-item" href="#destaques">Terror</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-3">
+                        <div class="card">
+                            <img src="images/filme1.jpg" class="card-img-top" alt="filme1">
+                            <div class="card-body">
+                                <p class="card-text"><b>Thor: Amor e Trovão</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-3">
+                        <div class="card">
+                            <img src="images/filme2.jpg" class="card-img-top" alt="filme2">
+                            <div class="card-body">
+                                <p class="card-text"><b>Pânico</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-3">
+                        <div class="card">
+                            <img src="images/filme3.jpg" class="card-img-top" alt="filme3">
+                            <div class="card-body">
+                                <p class="card-text"><b>Medida Provisória</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-3">
+                        <div class="card">
+                            <img src="images/filme4.jpg" class="card-img-top" alt="filme4">
+                            <div class="card-body">
+                                <p class="card-text"><b>Cidade Perdida</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="text-align: right; margin-top: 10px;">
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Avaliações -->
+        <div class="container" id="avaliacoes">
+            <h3 class="titulo_vermelho">Últimas avaliações</h3>
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="images/cacete-de-agulha.png" height="100%"
+                                        width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Cacete_de_Agulha01</h6>
+                                <p><b>Avaliação:</b> Pânico 5 - Eu gostei das revelações. A primeira pela "novidade" e a
+                                    segunda pela "homenagem". Mesmo com todo o alarde, deixando todo mundo "vai
+                                    acontecer a qualquer hora", foi inesperado para mim como foi feito principalmente a
+                                    primeira pela rapidez. Não quem era o assassino em si mas COMO foi. E a frase
+                                    "Welcome to the third act" foi icônica para mim..</p>
+                                <p class="nota4"> - 05/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="images/shereka.png" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Shereka</h6>
+                                <p>
+                                    <b>Avaliação:</b> Shrek Terceiro - Não se mostrou um filme tão criativo e
+                                    original como os seus antecessores, pecando em aspectos tão característicos da
+                                    franquia, o que o torna um filme abaixo da qualidade estabelecida com os dois
+                                    primeiros projetos.
+                                </p>
+                                <p class="nota5"> - 01/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="images/aaaeeeeah.png" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Aeeeeaaah</h6>
+                                <p><b>Avaliação:</b> Jurassic World 2 - Eu adorei o filme mesmo tendo alguns erros
+                                    biológicos .E teve aquela cena da trap do indoraptor em q ele finge a anestesia. Mas
+                                    o final deixou muito aberto a uma continuação uma enorme brecha para um jurassic
+                                    world 3 dinos na cidade ou algo do tipo.</p>
+                                <p class="nota6"> - 10/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais avaliações</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Entrevistas e Making Of -->
+        <div class="entrevistas" id="entrevistas">
+            <div class="container">
+                <h1 class="titulo_branco">Entrevistas & Making Of</h1>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <div>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LMZPnwz_dT0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen class="entmak"></iframe>
+                            <p class="sobre">Filme: Homem-Aranha: Sem Volta para Casa</p>
+                            <p class="sobre">Diretor: Jon Watts</p>
+                            <p class="sobre">Roteiro: Chris McKenna, Erik Sommers, Stan Lee</p>
+                            <p class="sobre">Estreia: 16/12/2021</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-4">
+                        <div>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_EyDqnD4Jjo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen class="entmak"></iframe>
+                            <p class="sobre">Filme: The Batman</p>
+                            <p class="sobre">Diretor: Matt Reeves</p>
+                            <p class="sobre">Roteiro: Matt Reeves, Peter Craig, Bill Finger</p>
+                            <p class="sobre">Estreia: 03/03/2022</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <div>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xYbkSNHgiuQ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen class="entmak"></iframe>
+                            <p class="sobre">Filme: Jumanji: Próxima Fase</p>
+                            <p class="sobre">Diretor: Jake Kasdan</p>
+                            <p class="sobre">Roteiro: Jake Kasdan, Chris Van Allsburg</p>
+                            <p class="sobre">Estreia: 16/01/2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container btn_entrevista">
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Novidades-->
+        <div class="container" id="novidades">
+            <h1 class="titulo_vermelho">Novidades</h1>
+            <div class="row">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <img height="100%" width="100%" src="images/noticia1.jpg" alt="noticia1"
+                                    class="noticias">
+                            </div>
+                            <div class="col-sm-12 col-lg-6">
+                                <h5>No Ritmo do Coração</h5>
+                                <p>
+                                    “No Ritmo do Coração”, de Siân Heder, foi o grande vencedor, levando os três
+                                    prêmios
+                                    aos quais tinha sido indicado: filme, roteiro adaptado e ator coadjuvante. Além
+                                    da
+                                    qualidade do filme, sua possível conquista do Oscar foi crescendo na bolsa de
+                                    apostas, na medida em que ganhou premiações dos sindicatos de Atores,
+                                    Roteiristas e
+                                    Produtores.
+                                </p>
+                                <div><span class="tag">holywood</span> <span class="tag">oscar</span> <span class="tag">melhor roteiro adaptado</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <img height="100%" width="100%" src="images/noticia2.jpg" alt="noticia2"
+                                    class="noticias">
+                            </div>
+                            <div class="col-sm-12 col-lg-6">
+                                <h5>Summer of Soul</h5>
+                                <p>
+                                    O grande vencedor dessa edição foi "Summer of Soul", que deve tomar um bom impulso
+                                    para o Oscar 2022, vencendo os prêmios de Melhor Documentário, Melhor Documentário
+                                    Musical, Melhor Documentário de Arquivo, Melhor Primeiro Documentário, Melhor Edição
+                                    e Melhor Direção. Inclusive, teve um empate em Melhor Direção com "The Rescue",
+                                    outro grande vencedor, que levou três prêmios para casa.
+                                </p>
+                                <div><span class="tag">holywood</span> <span class="tag">oscar</span> <span class="tag">melhor documentário</span></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <img height="100%" width="100%" src="images/noticia3.jpg" alt="noticia3"
+                                    class="noticias">
+                            </div>
+                            <div class="col-sm-12 col-lg-6">
+                                <h5>Encanto</h5>
+                                <p>
+                                    "Encanto", o filme mais recente da Walt Disney Studios, levou o prêmio de melhor
+                                    animação no Oscar 2022. Dirigido por Jared Bush, Byron Howard e Charise Castro
+                                    Smith, o longa conta a história de uma família colombiana guiada por magia e laços
+                                    afetivos.
+                                </p>
+                                <div><span class="tag">holywood</span> <span class="tag">oscar</span> <span class="tag">melhor animação</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sobre -->
+                <div class="col-sm-12 col-lg-4">
+                    <h1 class="titulo_vermelho">Sobre</h1>
+                    <p>
+                        Um simples site de noticias sobre filmes no geral, que surgiu de um trabalho universitário da
+                        materia de Desenvolvimento de Interfaces Web (DIW). Foi criado por Nilson Deon estudante de
+                        Ciências da Computação na Pontifícia Universidade Católica de Minas Gerais (Puc Minas).
+                    </p>
+                    <!-- Editorial -->
+                    <h1 class="titulo_vermelho">Editorial</h1>
+                    <div>
+                        <p><strong>Redação:</strong> David Bowie </p>
+                        <p><strong>Pesquisa:</strong> Michael Jackson </p>
+                        <p><strong>Gerenciamento Geral:</strong> Bruno Mars </p>
+                    </div>
+                    <h3 class="sub_titulo">Redes Socias:</h3>
+                    <a href="#"><img src="images/facebook.png" alt="Facebook" class="social"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter" class="social"></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram" class="social"></a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-11">
+                    <p class="p_footer">
+                        © 2022 Copyright: Desenvolvimento de Interfaces Web - <strong>ICEI - PUC Minas</strong>
+                    </p>
+                </div>
+                <div class="col-1">
+                    <img src="images/popcorn.png" alt="logo" class="logo_footer col-1">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap fim -->
+</body>
+
+</html>
