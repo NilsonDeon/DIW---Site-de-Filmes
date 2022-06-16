@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <main>
         <header class="header">
             <!-- nav superior inicio -->
@@ -45,9 +46,9 @@
                                 <a class="nav-link nav_top" href="#novidades">Novidades</a>
                             </li>
                         </ul>
-                        <form class="d-flex">
-                            <input class="input_header" type="search" placeholder="Pesquisar filme" aria-label="Search">
-                            <button class="btn_header" type="submit">Pesquisar</button>
+                        <form class="d-flex form">
+                                <input type="text" placeholder="Search" id="search" class="search">
+                            <button type="submit"></button>
                         </form>
                     </div>
                 </div>
@@ -72,7 +73,7 @@
                     <div class="filmes">
                         <div class="row" style="margin-bottom: 35px;">
                             <div class="col-xs-12 col-md-12 col-lg-6" style="min-height: 294px;">
-                                <iframe width="100%" height="330" src="https://www.youtube.com/embed/r5D_XnTzOoQ"
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/r5D_XnTzOoQ"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen class="video"></iframe>
@@ -134,7 +135,7 @@
                     <div class="filmes">
                         <div class="row" style="margin-bottom: 35px;">
                             <div class="col-xs-12 col-md-12 col-lg-6" style="min-height: 294px;">
-                                <iframe width="100%" height="330" src="https://www.youtube.com/embed/A2SjVRziC7M"
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/A2SjVRziC7M"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen class="video"></iframe>
@@ -192,7 +193,7 @@
                     <div class="filmes">
                         <div class="row" style="margin-bottom: 35px;">
                             <div class="col-xs-12 col-md-12 col-lg-6" style="min-height: 294px;">
-                                <iframe width="100%" height="330" src="https://www.youtube.com/embed/LcCrLZceCmg"
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LcCrLZceCmg"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen class="video"></iframe>
@@ -273,39 +274,8 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-3">
-                        <div class="card">
-                            <img src="images/filme1.jpg" class="card-img-top" alt="filme1">
-                            <div class="card-body">
-                                <p class="card-text"><b>Thor: Amor e Trovão</b></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-3">
-                        <div class="card">
-                            <img src="images/filme2.jpg" class="card-img-top" alt="filme2">
-                            <div class="card-body">
-                                <p class="card-text"><b>Pânico</b></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-3">
-                        <div class="card">
-                            <img src="images/filme3.jpg" class="card-img-top" alt="filme3">
-                            <div class="card-body">
-                                <p class="card-text"><b>Medida Provisória</b></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-3">
-                        <div class="card">
-                            <img src="images/filme4.jpg" class="card-img-top" alt="filme4">
-                            <div class="card-body">
-                                <p class="card-text"><b>Cidade Perdida</b></p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row" id="cards">
+                    <!-- FILMES -->
                 </div>
             </div>
             <div class="container" style="text-align: right; margin-top: 10px;">
@@ -541,7 +511,6 @@
         </div>
         </div>
     </main>
-
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -562,6 +531,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <!-- Bootstrap fim -->
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
